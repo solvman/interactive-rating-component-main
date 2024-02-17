@@ -65,6 +65,7 @@ ul {
 
 body {
   min-width: 375px;
+  height: 100vh;
   padding: max(6.4vw, 1.5rem);
   font-family: var(--font-face-default);
   font-size: var(--font-size-text);
@@ -84,8 +85,8 @@ p {
 
 main {
   display: grid;
+  height: 100%;
   place-items: center;
-  border: 1px solid magenta;
 }
 
 /* Card */
