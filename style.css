@@ -37,6 +37,7 @@
 svg {
   display: block;
   max-width: 100%;
+  height: auto;
 }
 
 ul {
@@ -96,4 +97,10 @@ main {
   background: var(--gradient-900);
   border-radius: clamp(0.9375rem, 0.6074rem + 1.4085vw, 1.875rem);
   padding: min(6.4vw, 2rem);
+}
+
+.rate__img {
+  background-color: var(--color-neutral-800);
+  border-radius: 50%;
+  border: 1px solid red;
 }
