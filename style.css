@@ -11,6 +11,11 @@
   --color-neutral-900: hsl(216, 12%, 8%);
 
   --font-face-default: "Overpass", sans-serif;
+  --font-weight-regular: 400;
+  --font-weight-bold: 700;
+
+  --font-size-title: clamp(1.5rem, 1.412rem + 0.3756vw, 1.75rem);
+  --font-size-text: clamp(0.875rem, 0.853rem + 0.0939vw, 0.9375rem);
 }
 
 /* Reset */
@@ -22,8 +27,6 @@
   margin: 0;
   padding: 0;
 }
-
-/* Global styles */
 
 /* Utility classes */
 
@@ -38,3 +41,5 @@
   border: 0;
   white-space: nowrap;
 }
+
+/* Global styles */
