@@ -10,7 +10,7 @@
   --color-neutral-800: hsl(213, 19%, 18%);
   --color-neutral-900: hsl(216, 12%, 8%);
 
-  --gradient: radial-gradient(
+  --gradient-900: radial-gradient(
     98.96% 98.96% at 50% 0%,
     #232a34 0%,
     #181e27 100%
@@ -32,6 +32,15 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+}
+
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+ul {
+  list-style: none;
 }
 
 /* Utility classes */
@@ -71,7 +80,7 @@ p {
 
 .card {
   max-width: 412px;
-  background: var(--gradient);
+  background: var(--gradient-900);
   border-radius: clamp(0.9375rem, 0.6074rem + 1.4085vw, 1.875rem);
   padding: 1.5rem;
   margin: 1.5rem 0;
