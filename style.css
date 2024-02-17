@@ -83,5 +83,4 @@ p {
   background: var(--gradient-900);
   border-radius: clamp(0.9375rem, 0.6074rem + 1.4085vw, 1.875rem);
   padding: 1.5rem;
-  margin: 1.5rem 0;
 }
