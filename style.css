@@ -10,6 +10,12 @@
   --color-neutral-800: hsl(213, 19%, 18%);
   --color-neutral-900: hsl(216, 12%, 8%);
 
+  --gradient: radial-gradient(
+    98.96% 98.96% at 50% 0%,
+    #232a34 0%,
+    #181e27 100%
+  );
+
   --font-face-default: "Overpass", sans-serif;
   --font-weight-regular: 400;
   --font-weight-bold: 700;
@@ -43,3 +49,30 @@
 }
 
 /* Global styles */
+
+body {
+  min-width: 375px;
+  padding: max(6.4vw, 1.5rem);
+  font-family: var(--font-face-default);
+  font-size: var(--font-size-text);
+  background-color: var(--color-neutral-900);
+}
+
+h2 {
+  font-size: var(--font-size-title);
+  font-weight: var(--font-weight-bold);
+  color: var(--color-neutral-100);
+}
+
+p {
+  color: hsl(216, 12%, 54%);
+  line-height: 1.6;
+}
+
+.card {
+  max-width: 412px;
+  background: var(--gradient);
+  border-radius: clamp(0.9375rem, 0.6074rem + 1.4085vw, 1.875rem);
+  padding: 1.5rem;
+  margin: 1.5rem 0;
+}
