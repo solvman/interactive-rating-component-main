@@ -17,7 +17,7 @@
       <h1 class="sr-only">
         Frontend Mentor Interactive Rating Component project submission
       </h1>
-      <article class="card rating hidden">
+      <article class="card rating">
         <div class="rating__img">
           <img src="./images/icon-star.svg" alt aria-hidden="true" />
         </div>
@@ -35,14 +35,16 @@
         </ul>
         <button class="button button--primary">Submit</button>
       </article>
-      <article class="card thank-you">
+      <article class="card thank-you hidden">
         <img
           src="./images/illustration-thank-you.svg"
           alt
           class="thank-you__img"
           aria-hidden="true"
         />
-        <p class="thank-you__rating">You selected <span></span> out of 5</p>
+        <p class="thank-you__rating">
+          You selected <span id="rating"></span> out of 5
+        </p>
         <h2 class="thank-you__title">Thank you!</h2>
         <p class="thank-you__text">
           We appreciate you taking the time to give a rating. If you ever need
