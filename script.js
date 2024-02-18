@@ -13,6 +13,10 @@ rates.forEach((rate) => {
 });
 
 submitButton.addEventListener("click", () => {
+  if (rating.innerHTML === "") {
+    alert("Please select a rating");
+    return;
+  }
   ratingContainer.classList.add("hidden");
   thanksContainer.classList.remove("hidden");
 });
