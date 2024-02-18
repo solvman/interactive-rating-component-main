@@ -180,7 +180,7 @@ main {
 
 .rating__text,
 .thank-you__text {
-  margin-top: 0.625rem;
+  margin-top: 0.75rem;
   /* margin-top: var(--fluid-07-10); */
 }
 
