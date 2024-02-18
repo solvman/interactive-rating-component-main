@@ -34,7 +34,7 @@
   padding: 0;
 }
 
-svg {
+img {
   display: block;
   max-width: 100%;
   height: auto;
@@ -171,8 +171,9 @@ main {
   margin-top: min(5.735%, 1.875rem);
 }
 
-.rating__text {
-  margin-top: clamp(7px, calc(10px - 3 * ((100vw - 375px) / 1065)), 10px);
+.rating__text,
+.thank-you__text {
+  margin-top: clamp(7px, 11.0563px + -0.2817vi, 10px);
 }
 
 .rating ul {
@@ -184,4 +185,29 @@ main {
 
 .rating > button {
   margin-bottom: 0.5rem;
+}
+
+.thank-you {
+  text-align: center;
+}
+
+.thank-you img {
+  margin-inline: auto;
+  width: 40%;
+  height: auto;
+}
+
+.thank-you__rating {
+  display: inline-block;
+  maring-inline: auto;
+  margin-block: clamp(1.5rem, 1.3239rem + 0.7512vi, 2rem);
+  border-radius: 1.40625rem;
+  padding-inline: 1.25rem;
+  padding-block: 0.25rem;
+  color: var(--color-primary-500);
+  background-color: var(--color-neutral-800);
+}
+
+.thank-you__text {
+  margin-bottom: 0.8125rem;
 }
