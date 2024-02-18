@@ -104,7 +104,7 @@ main {
   border-radius: 50%;
   font-size: var(--font-size-text);
   font-weight: var(--font-weight-bold);
-  transition: background-color 0.3s ease;
+  transition: all 0.3s ease;
 }
 
 .button--ghost {
@@ -112,6 +112,16 @@ main {
   height: 42px;
   color: var(--color-neutral-500);
   background-color: var(--color-neutral-800);
+}
+
+.button--ghost:focus {
+  color: var(--color-neutral-100);
+  background-color: var(--color-neutral-500);
+}
+
+.button--ghost:hover {
+  color: var(--color-neutral-100);
+  background-color: var(--color-primary-500);
 }
 
 /* Card */
