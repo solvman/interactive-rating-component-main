@@ -3,7 +3,7 @@ const thanksContainer = document.querySelector(".thank-you");
 const rating = document
   .querySelector(".thank-you__rating")
   .querySelector("span");
-const rates = document.querySelectorAll("button--round");
+const rates = document.querySelectorAll(".button--round");
 const submitButton = document.querySelector(".button--primary");
 
 rates.forEach((rate) => {
