@@ -8,6 +8,8 @@ const submitButton = document.querySelector(".button--primary");
 
 rates.forEach((rate) => {
   rate.addEventListener("click", () => {
+    clearRatings();
+    rate.classList.add("button--selected");
     rating.innerHTML = rate.innerHTML;
   });
 });
@@ -20,3 +22,9 @@ submitButton.addEventListener("click", () => {
   ratingContainer.classList.add("hidden");
   thanksContainer.classList.remove("hidden");
 });
+
+const clearRatings = () => {
+  rates.forEach((rate) => {
+    rate.classList.remove("button--selected");
+  });
+};
