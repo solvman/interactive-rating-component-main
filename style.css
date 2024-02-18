@@ -157,10 +157,8 @@ main {
 
   border-radius: 50%;
   background-color: var(--color-neutral-800);
-  width: max(11vw, 48px);
-  min-width: 40px;
-  height: max(11vw, 48px);
-  min-height: 40px;
+  width: clamp(40px, 37.1831px + 0.7512vi, 48px);
+  height: clamp(40px, 37.1831px + 0.7512vi, 48px);
   /* border: 1px solid magenta; */
 }
 
