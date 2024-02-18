@@ -44,6 +44,12 @@ ul {
   list-style: none;
 }
 
+button {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
 /* Utility classes */
 
 .sr-only {
@@ -88,6 +94,24 @@ main {
   display: grid;
   height: 100%;
   place-items: center;
+}
+
+/* Buttons */
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  font-size: var(--font-size-text);
+  font-weight: var(--font-weight-bold);
+  transition: background-color 0.3s ease;
+}
+
+.button--ghost {
+  width: 42px;
+  height: 42px;
+  color: var(--color-neutral-500);
+  background-color: var(--color-neutral-800);
 }
 
 /* Card */
