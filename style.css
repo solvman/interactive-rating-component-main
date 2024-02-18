@@ -78,8 +78,8 @@ button {
 
 body {
   min-width: 375px;
-  height: 100vh;
-  padding: max(6.4vw, 1.5rem);
+  height: max(405px, 100vh);
+  padding: 1.5rem, max(6.4vw, 1.5rem);
   font-family: var(--font-face-default);
   font-size: var(--font-size-text);
   background-color: var(--color-neutral-900);
