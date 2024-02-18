@@ -146,7 +146,7 @@ main {
 .card {
   max-width: 412px;
   background: var(--gradient-900);
-  border-radius: clamp(0.9375rem, 0.6074rem + 1.4085vw, 1.875rem);
+  border-radius: clamp(15px, 9.7183px + 1.4085vi, 30px);
   padding: min(6.4vw, 2rem);
 }
 
@@ -180,4 +180,8 @@ main {
   align-items: center;
   justify-content: space-between;
   margin-block: 1.5rem;
+}
+
+.rating > button {
+  margin-bottom: 0.5rem;
 }
