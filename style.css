@@ -108,10 +108,13 @@ main {
 }
 
 .button--ghost {
-  width: clamp(42px, 38.831px + 0.8451cqi, 51px);
-  height: clamp(42px, 38.831px + 0.8451cqi, 51px);
   color: var(--color-neutral-500);
   background-color: var(--color-neutral-800);
+}
+
+.button--round {
+  width: clamp(42px, 38.831px + 0.8451cqi, 51px);
+  height: clamp(42px, 38.831px + 0.8451cqi, 51px);
 }
 
 .button--ghost:focus {
