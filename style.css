@@ -23,11 +23,11 @@
   --font-size-title: clamp(1.5rem, 1.412rem + 0.3756vw, 1.75rem);
   --font-size-text: clamp(0.875rem, 0.853rem + 0.0939vw, 0.9375rem);
 
-  --fluid-7px-10px: clamp(7px, 11.0563px + -0.2817vi, 10px);
-  --fluid-15px-30px: clamp(15px, 9.7183px + 1.4085vi, 30px);
-  --fluid-40px-48px: clamp(40px, 37.1831px + 0.7512vi, 48px);
-  --fluid-42px-51px: clamp(42px, 38.831px + 0.8451vi, 51px);
-  --fluid-1-5rem-2rem: clamp(1.5rem, 1.3239rem + 0.7512vi, 2rem);
+  --fluid-07-10: clamp(7px, 11.3636px + -0.3636vi, 10px);
+  --fluid-15-30: clamp(15px, 9.7183px + 1.4085vi, 30px);
+  --fluid-40-48: clamp(40px, 36.3636px + 0.9697vi, 48px);
+  --fluid-42-51: clamp(42px, 37.9091px + 1.0909vi, 51px);
+  --fluid-24-32: clamp(1.5rem, 1.2727rem + 0.9697vi, 2rem);
 }
 
 /* Reset */
@@ -103,6 +103,7 @@ main {
 }
 
 /* Buttons */
+
 .button {
   display: flex;
   justify-content: center;
@@ -124,8 +125,8 @@ main {
 
 .button--round {
   border-radius: 50%;
-  width: var(--fluid-42px-51px);
-  height: var(--fluid-42px-51px);
+  width: var(--fluid-42-51);
+  height: var(--fluid-42-51);
 }
 
 .button--ghost:focus {
@@ -148,12 +149,12 @@ main {
   background-color: var(--color-neutral-100);
 }
 
-/* Card */
+/* Cards */
 
 .card {
   max-width: 412px;
   background: var(--gradient-900);
-  border-radius: var(--fluid-15px-30px);
+  border-radius: var(--fluid-15-30);
   padding: min(6.4vw, 2rem);
 }
 
@@ -164,8 +165,8 @@ main {
 
   border-radius: 50%;
   background-color: var(--color-neutral-800);
-  width: var(--fluid-40px-48px);
-  height: var(--fluid-40px-48px);
+  width: var(--fluid-40-48);
+  height: var(--fluid-40-48);
 }
 
 .rating__img img {
@@ -174,12 +175,12 @@ main {
 }
 
 .rating__title {
-  margin-top: min(5.735%, 1.875rem);
+  margin-top: var(--fluid-15-30);
 }
 
 .rating__text,
 .thank-you__text {
-  margin-top: var(--fluid-7px-10px);
+  margin-top: var(--fluid-07-10);
 }
 
 .rating ul {
@@ -206,7 +207,7 @@ main {
 .thank-you__rating {
   display: inline-block;
   maring-inline: auto;
-  margin-block: var(--fluid-1-5rem-2rem);
+  margin-block: var(--fluid-24-32);
   border-radius: 1.40625rem;
   padding-inline: 1.25rem;
   padding-block: 0.25rem;
