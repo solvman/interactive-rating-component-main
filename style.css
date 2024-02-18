@@ -101,9 +101,13 @@ main {
   display: flex;
   justify-content: center;
   align-items: center;
-  border-radius: 50%;
+  border-radius: 1.40625rem;
+  height: 2.8125rem;
+  width: 100%;
   font-size: var(--font-size-text);
   font-weight: var(--font-weight-bold);
+  letter-spacing: 2px;
+  text-transform: uppercase;
   transition: all 0.3s ease;
 }
 
@@ -127,7 +131,15 @@ main {
   background-color: var(--color-primary-500);
 }
 
-.button
+.button--primary {
+  color: var(--color-neutral-100);
+  background-color: var(--color-primary-500);
+}
+
+.button--primary:is(:hover, :focus) {
+  color: var(--color-primary-500);
+  background-color: var(--color-neutral-100);
+}
 
 /* Card */
 
