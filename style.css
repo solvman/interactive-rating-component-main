@@ -160,7 +160,6 @@ main {
   background-color: var(--color-neutral-800);
   width: clamp(40px, 37.1831px + 0.7512vi, 48px);
   height: clamp(40px, 37.1831px + 0.7512vi, 48px);
-  /* border: 1px solid magenta; */
 }
 
 .rating__img img {
