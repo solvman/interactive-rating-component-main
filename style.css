@@ -108,8 +108,8 @@ main {
 }
 
 .button--ghost {
-  width: 42px;
-  height: 42px;
+  width: clamp(42px, 38.831px + 0.8451cqi, 51px);
+  height: clamp(42px, 38.831px + 0.8451cqi, 51px);
   color: var(--color-neutral-500);
   background-color: var(--color-neutral-800);
 }
