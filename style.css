@@ -127,6 +127,8 @@ main {
   background-color: var(--color-primary-500);
 }
 
+.button
+
 /* Card */
 
 .card {
@@ -155,10 +157,17 @@ main {
   height: auto;
 }
 
-.rate__title {
+.rating__title {
   margin-top: min(5.735%, 1.875rem);
 }
 
-.rate__text {
+.rating__text {
   margin-top: clamp(7px, calc(10px - 3 * ((100vw - 375px) / 1065)), 10px);
+}
+
+.rating ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-block: 1.5rem;
 }
